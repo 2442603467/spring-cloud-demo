@@ -1,0 +1,812 @@
+2019-07-02 00:05:04.753 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 00:05:04.763 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Evicting 1 items (expired=2, evictionLimit=1)
+2019-07-02 00:05:04.766 [Eureka-EvictionTimer] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: expired lease for SSO/192.168.31.149:sso:8877
+2019-07-02 00:05:04.767 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/192.168.31.149:sso:8877 (replication=false)
+2019-07-02 00:05:21.785 [http-nio-8763-exec-10] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: SSO - 192.168.31.149:sso:8877
+2019-07-02 00:05:21.785 [http-nio-8763-exec-10] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): SSO - 192.168.31.149:sso:8877
+2019-07-02 00:05:21.798 [http-nio-8763-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/192.168.31.149:sso:8877 with status UP (replication=false)
+2019-07-02 00:05:22.317 [http-nio-8763-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/192.168.31.149:sso:8877 with status UP (replication=true)
+2019-07-02 00:15:21.446 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 00:25:38.376 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 00:35:54.669 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 10ms
+2019-07-02 00:46:12.437 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 01:05:45.978 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 01:05:45.979 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Evicting 1 items (expired=2, evictionLimit=1)
+2019-07-02 01:05:45.979 [Eureka-EvictionTimer] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: expired lease for USER-SERVER1/192.168.31.149:user-server1:8766
+2019-07-02 01:05:45.986 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance USER-SERVER1/192.168.31.149:user-server1:8766 (replication=false)
+2019-07-02 01:06:05.430 [http-nio-8763-exec-4] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: USER-SERVER1 - 192.168.31.149:user-server1:8766
+2019-07-02 01:06:05.432 [http-nio-8763-exec-4] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): USER-SERVER1 - 192.168.31.149:user-server1:8766
+2019-07-02 01:06:05.459 [http-nio-8763-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance USER-SERVER1/192.168.31.149:user-server1:8766 with status UP (replication=false)
+2019-07-02 01:06:05.971 [http-nio-8763-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance USER-SERVER1/192.168.31.149:user-server1:8766 with status UP (replication=true)
+2019-07-02 01:16:02.174 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 8ms
+2019-07-02 01:26:18.002 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 01:26:19.006 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 01:36:35.827 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 01:46:52.416 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 7ms
+2019-07-02 02:06:26.742 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 02:06:26.743 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Evicting 1 items (expired=2, evictionLimit=1)
+2019-07-02 02:06:26.743 [Eureka-EvictionTimer] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: expired lease for SSO/192.168.31.149:sso:8877
+2019-07-02 02:06:26.750 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/192.168.31.149:sso:8877 (replication=false)
+2019-07-02 02:06:43.997 [http-nio-8763-exec-7] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: SSO - 192.168.31.149:sso:8877
+2019-07-02 02:06:43.997 [http-nio-8763-exec-7] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): SSO - 192.168.31.149:sso:8877
+2019-07-02 02:06:44.002 [http-nio-8763-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/192.168.31.149:sso:8877 with status UP (replication=false)
+2019-07-02 02:06:44.514 [http-nio-8763-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/192.168.31.149:sso:8877 with status UP (replication=true)
+2019-07-02 02:16:43.122 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 02:27:00.505 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 02:37:17.102 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 02:47:34.190 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 03:07:07.091 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 10ms
+2019-07-02 03:07:07.091 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Evicting 1 items (expired=2, evictionLimit=1)
+2019-07-02 03:07:07.091 [Eureka-EvictionTimer] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: expired lease for USER-SERVER1/192.168.31.149:user-server1:8766
+2019-07-02 03:07:07.091 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance USER-SERVER1/192.168.31.149:user-server1:8766 (replication=false)
+2019-07-02 03:07:26.746 [http-nio-8763-exec-3] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: USER-SERVER1 - 192.168.31.149:user-server1:8766
+2019-07-02 03:07:26.746 [http-nio-8763-exec-3] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): USER-SERVER1 - 192.168.31.149:user-server1:8766
+2019-07-02 03:07:26.751 [http-nio-8763-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance USER-SERVER1/192.168.31.149:user-server1:8766 with status UP (replication=false)
+2019-07-02 03:07:27.259 [http-nio-8763-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance USER-SERVER1/192.168.31.149:user-server1:8766 with status UP (replication=true)
+2019-07-02 03:17:24.019 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 7ms
+2019-07-02 03:27:44.784 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 03:38:05.441 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 9ms
+2019-07-02 03:48:26.112 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 9ms
+2019-07-02 04:08:07.311 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 367ms
+2019-07-02 04:08:07.356 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Evicting 1 items (expired=2, evictionLimit=1)
+2019-07-02 04:08:07.368 [Eureka-EvictionTimer] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: expired lease for USER-SERVER1/192.168.31.149:user-server1:8766
+2019-07-02 04:08:07.400 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance USER-SERVER1/192.168.31.149:user-server1:8766 (replication=false)
+2019-07-02 04:08:26.889 [http-nio-8763-exec-2] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: USER-SERVER1 - 192.168.31.149:user-server1:8766
+2019-07-02 04:08:26.890 [http-nio-8763-exec-2] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): USER-SERVER1 - 192.168.31.149:user-server1:8766
+2019-07-02 04:08:26.935 [http-nio-8763-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance USER-SERVER1/192.168.31.149:user-server1:8766 with status UP (replication=false)
+2019-07-02 04:08:27.459 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance USER-SERVER1/192.168.31.149:user-server1:8766 with status UP (replication=true)
+2019-07-02 04:18:27.001 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 04:28:46.408 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 04:28:47.834 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 6ms
+2019-07-02 04:39:08.549 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 7ms
+2019-07-02 04:49:29.128 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 04:59:49.642 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 6ms
+2019-07-02 05:19:30.278 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 11ms
+2019-07-02 05:29:50.309 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 7ms
+2019-07-02 05:40:11.413 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 05:50:31.593 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 06:00:52.455 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 06:20:34.400 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 90ms
+2019-07-02 06:20:34.457 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Evicting 1 items (expired=2, evictionLimit=1)
+2019-07-02 06:20:34.463 [Eureka-EvictionTimer] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: expired lease for SSO/192.168.31.149:sso:8877
+2019-07-02 06:20:34.550 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/192.168.31.149:sso:8877 (replication=false)
+2019-07-02 06:20:34.994 [http-nio-8763-exec-8] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: SSO - 192.168.31.149:sso:8877
+2019-07-02 06:20:34.997 [http-nio-8763-exec-8] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): SSO - 192.168.31.149:sso:8877
+2019-07-02 06:20:35.007 [TaskBatchingWorker-target_localhost-15] WARN  c.n.eureka.cluster.ReplicationTask -The replication of task SSO/192.168.31.149:sso:8877:Heartbeat@localhost failed with response code 404
+2019-07-02 06:20:35.008 [TaskBatchingWorker-target_localhost-15] WARN  c.n.eureka.cluster.PeerEurekaNode -SSO/192.168.31.149:sso:8877:Heartbeat@localhost: missing entry.
+2019-07-02 06:20:35.010 [TaskBatchingWorker-target_localhost-15] WARN  c.n.eureka.cluster.PeerEurekaNode -SSO/192.168.31.149:sso:8877:Heartbeat@localhost: cannot find instance id 192.168.31.149:sso:8877 and hence replicating the instance with status UP
+2019-07-02 06:20:35.564 [http-nio-8763-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/192.168.31.149:sso:8877 with status UP (replication=true)
+2019-07-02 06:30:55.043 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 06:30:55.062 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Evicting 1 items (expired=2, evictionLimit=1)
+2019-07-02 06:30:55.064 [Eureka-EvictionTimer] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: expired lease for SSO/192.168.31.149:sso:8877
+2019-07-02 06:30:55.085 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/192.168.31.149:sso:8877 (replication=false)
+2019-07-02 06:30:55.696 [http-nio-8763-exec-2] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: SSO - 192.168.31.149:sso:8877
+2019-07-02 06:30:55.699 [http-nio-8763-exec-2] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): SSO - 192.168.31.149:sso:8877
+2019-07-02 06:30:55.937 [http-nio-8763-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/192.168.31.149:sso:8877 with status UP (replication=false)
+2019-07-02 06:30:56.801 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/192.168.31.149:sso:8877 with status UP (replication=true)
+2019-07-02 06:41:14.724 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 06:41:14.730 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Evicting 1 items (expired=2, evictionLimit=1)
+2019-07-02 06:41:14.731 [Eureka-EvictionTimer] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: expired lease for USER-SERVER1/192.168.31.149:user-server1:8766
+2019-07-02 06:41:14.739 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance USER-SERVER1/192.168.31.149:user-server1:8766 (replication=false)
+2019-07-02 06:41:15.481 [http-nio-8763-exec-4] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: USER-SERVER1 - 192.168.31.149:user-server1:8766
+2019-07-02 06:41:15.484 [http-nio-8763-exec-4] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): USER-SERVER1 - 192.168.31.149:user-server1:8766
+2019-07-02 06:41:15.557 [http-nio-8763-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance USER-SERVER1/192.168.31.149:user-server1:8766 with status UP (replication=false)
+2019-07-02 06:41:16.097 [http-nio-8763-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance USER-SERVER1/192.168.31.149:user-server1:8766 with status UP (replication=true)
+2019-07-02 06:51:35.881 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 07:01:56.050 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 08:33:38.050 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 9ms
+2019-07-02 08:46:39.227 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 08:46:40.801 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 6ms
+2019-07-02 08:47:40.805 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 08:48:40.810 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 08:49:40.814 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 08:50:40.816 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 08:51:40.818 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 08:52:40.821 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 08:53:40.827 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 08:54:40.836 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 8ms
+2019-07-02 08:55:40.843 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 6ms
+2019-07-02 08:56:40.850 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 6ms
+2019-07-02 08:57:40.854 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 08:58:40.860 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 08:59:40.864 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 09:00:40.867 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 09:01:39.236 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 09:01:40.871 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 09:02:40.874 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 09:03:40.877 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 09:04:40.886 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 8ms
+2019-07-02 09:05:40.888 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 09:06:40.897 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 8ms
+2019-07-02 09:39:44.097 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 09:40:44.102 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 09:41:44.110 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 7ms
+2019-07-02 09:42:44.113 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 09:43:44.122 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 7ms
+2019-07-02 09:44:44.133 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 10ms
+2019-07-02 09:45:44.143 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 9ms
+2019-07-02 09:46:44.151 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 6ms
+2019-07-02 09:47:44.160 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 8ms
+2019-07-02 09:48:42.449 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 09:48:44.169 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 8ms
+2019-07-02 09:49:44.175 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 09:57:01.387 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 09:57:01.389 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Evicting 1 items (expired=2, evictionLimit=1)
+2019-07-02 09:57:01.389 [Eureka-EvictionTimer] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: expired lease for USER-SERVER1/192.168.31.149:user-server1:8766
+2019-07-02 09:57:01.390 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance USER-SERVER1/192.168.31.149:user-server1:8766 (replication=false)
+2019-07-02 09:57:08.073 [http-nio-8763-exec-5] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: USER-SERVER1 - 192.168.31.149:user-server1:8766
+2019-07-02 09:57:08.073 [http-nio-8763-exec-5] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): USER-SERVER1 - 192.168.31.149:user-server1:8766
+2019-07-02 09:57:08.084 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance USER-SERVER1/192.168.31.149:user-server1:8766 with status UP (replication=false)
+2019-07-02 09:57:08.568 [http-nio-8763-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance USER-SERVER1/192.168.31.149:user-server1:8766 with status UP (replication=true)
+2019-07-02 09:58:01.392 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 09:59:01.395 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 10:00:01.401 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 10:01:01.405 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 10:02:01.407 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 10:03:01.413 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 10:04:01.419 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 10:05:01.424 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 10:06:01.427 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 10:07:01.432 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 10:08:01.437 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 10:09:01.442 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 10:09:59.673 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 10:10:01.445 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 10:11:01.449 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 10:12:01.453 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 10:13:01.458 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 10:14:01.464 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 10:15:01.466 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 10:16:01.470 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 10:17:01.473 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 10:18:01.478 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 10:19:01.481 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 10:20:01.486 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 10:21:01.492 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 10:22:01.494 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 10:23:01.496 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 10:24:01.502 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 10:24:59.687 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 10:25:01.507 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 10:26:01.509 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 10:27:01.513 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 10:28:01.518 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 10:29:01.522 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 10:30:01.527 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 10:31:01.531 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 10:32:01.535 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 10:33:01.540 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 10:34:01.544 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 10:35:01.550 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 10:36:01.555 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 10:37:01.559 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 10:38:01.563 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 10:39:01.568 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 10:39:59.700 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 10:40:01.571 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 10:41:01.576 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 10:42:01.581 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 10:43:01.582 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 10:44:01.586 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 10:45:01.589 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 10:46:01.593 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 10:47:01.600 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 6ms
+2019-07-02 10:48:01.604 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 10:49:01.609 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 10:50:01.614 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 10:51:01.618 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 10:52:01.623 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 10:53:01.627 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 10:54:01.636 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 10:54:59.711 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 10:55:01.633 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 10:56:01.638 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 10:57:01.643 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 10:58:01.645 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 10:59:01.646 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 11:00:01.648 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 11:01:01.658 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 8ms
+2019-07-02 11:02:01.660 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 11:03:01.667 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 11:04:01.678 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 10ms
+2019-07-02 11:12:17.832 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 10ms
+2019-07-02 11:13:17.837 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 11:14:17.843 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 11:15:17.847 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 11:16:17.852 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 11:17:15.868 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 11:17:17.856 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 11:18:17.858 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 11:19:17.863 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 11:20:17.869 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 11:21:17.873 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 11:22:17.877 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 11:23:17.880 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 11:24:17.884 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 11:25:17.886 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 11:26:17.891 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 11:27:17.895 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 11:28:17.896 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 11:29:17.900 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 11:30:17.901 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 11:31:17.909 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 7ms
+2019-07-02 11:32:15.878 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 11:32:17.913 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 11:33:17.914 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 11:34:17.922 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 7ms
+2019-07-02 11:35:17.927 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 12:54:28.039 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 9ms
+2019-07-02 12:55:28.042 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 12:56:28.051 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 8ms
+2019-07-02 12:57:28.054 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 12:58:28.064 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 9ms
+2019-07-02 12:59:28.066 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 13:00:28.075 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 8ms
+2019-07-02 13:01:28.085 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 8ms
+2019-07-02 13:02:28.090 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 13:03:28.099 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 8ms
+2019-07-02 13:04:28.100 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 13:05:25.998 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 13:05:28.107 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 6ms
+2019-07-02 13:06:28.113 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 6ms
+2019-07-02 13:07:28.115 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 13:08:28.124 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 7ms
+2019-07-02 13:09:28.132 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 7ms
+2019-07-02 13:10:28.134 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 13:11:28.137 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 13:12:28.139 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 13:13:28.148 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 7ms
+2019-07-02 13:14:28.156 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 7ms
+2019-07-02 13:15:28.157 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 13:16:28.167 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 8ms
+2019-07-02 13:17:28.175 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 7ms
+2019-07-02 13:18:28.183 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 8ms
+2019-07-02 13:19:28.191 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 7ms
+2019-07-02 13:20:26.018 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 13:20:28.198 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 6ms
+2019-07-02 13:21:28.207 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 8ms
+2019-07-02 13:22:28.210 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 13:23:28.215 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 13:43:38.953 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 8ms
+2019-07-02 13:44:38.956 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 13:45:38.961 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 13:46:38.964 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 13:47:38.967 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 13:48:28.248 [http-nio-8763-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/192.168.31.149:sso:8877 with status DOWN (replication=false)
+2019-07-02 13:48:28.389 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/192.168.31.149:sso:8877 (replication=false)
+2019-07-02 13:48:28.756 [http-nio-8763-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/192.168.31.149:sso:8877 with status DOWN (replication=true)
+2019-07-02 13:48:28.756 [http-nio-8763-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/192.168.31.149:sso:8877 (replication=true)
+2019-07-02 13:48:38.971 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 13:49:38.983 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 13:50:38.982 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 13:51:38.986 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 13:52:38.988 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 13:53:38.992 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 13:54:36.765 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 13:54:38.996 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 13:55:39.001 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 13:56:39.004 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 13:57:39.007 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 13:58:39.010 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 13:59:39.012 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 14:00:39.017 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 14:01:39.018 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 14:02:39.023 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 14:03:39.028 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 14:04:39.033 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 14:05:39.040 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 14:06:39.036 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 14:07:39.040 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 14:08:39.043 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 14:09:36.777 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 14:09:39.049 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 14:10:39.053 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 14:11:39.058 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 14:12:39.062 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 14:13:39.063 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 14:14:39.064 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 14:15:39.068 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 14:16:39.074 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 14:17:39.078 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 14:18:39.083 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 14:19:39.085 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 14:20:39.088 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 14:21:39.094 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 14:22:39.096 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 14:23:39.101 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 14:24:36.791 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 14:24:39.107 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 14:25:39.109 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 14:26:39.113 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 14:27:39.117 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 14:28:39.122 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 14:29:39.126 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 14:30:39.132 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 14:31:39.136 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 14:32:39.137 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 14:33:39.143 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 14:34:39.145 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 14:35:39.149 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 14:36:21.855 [http-nio-8763-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 14:36:22.368 [http-nio-8763-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 14:36:39.154 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 14:37:39.162 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 14:38:39.160 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 14:39:36.804 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 14:39:39.164 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 14:40:05.531 [http-nio-8763-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 14:40:05.536 [http-nio-8763-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 14:40:06.054 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 14:40:06.056 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=true)
+2019-07-02 14:40:18.931 [http-nio-8763-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 14:40:19.451 [http-nio-8763-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 14:40:39.165 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 14:41:20.800 [http-nio-8763-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 14:41:20.801 [http-nio-8763-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 14:41:21.314 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 14:41:21.315 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=true)
+2019-07-02 14:41:33.990 [http-nio-8763-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 14:41:34.512 [http-nio-8763-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 14:41:39.170 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 14:42:39.175 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 14:43:39.180 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 14:44:28.909 [http-nio-8763-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 14:44:28.931 [http-nio-8763-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 14:44:29.433 [http-nio-8763-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 14:44:29.433 [http-nio-8763-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=true)
+2019-07-02 14:44:39.184 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 14:44:46.419 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 14:44:46.935 [http-nio-8763-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 14:45:39.188 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 14:46:39.191 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 14:46:58.026 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 14:46:58.102 [http-nio-8763-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 14:46:58.537 [http-nio-8763-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 14:46:58.539 [http-nio-8763-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=true)
+2019-07-02 14:47:12.326 [http-nio-8763-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 14:47:12.838 [http-nio-8763-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 14:47:39.196 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 14:48:39.199 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 14:49:39.204 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 14:50:39.208 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 14:51:39.212 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 14:52:39.217 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 14:53:39.221 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 14:54:36.814 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 14:54:39.232 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 10ms
+2019-07-02 14:55:39.243 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 10ms
+2019-07-02 14:56:39.246 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 14:57:39.254 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 7ms
+2019-07-02 14:58:39.255 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 15:01:12.713 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 9ms
+2019-07-02 15:02:12.718 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 15:03:12.723 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 15:03:49.630 [http-nio-8763-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 15:03:49.702 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 15:03:50.153 [http-nio-8763-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 15:03:50.156 [http-nio-8763-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=true)
+2019-07-02 15:04:04.120 [http-nio-8763-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 15:04:04.635 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 15:04:12.728 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 15:05:12.733 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 15:06:12.736 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 15:06:31.960 [http-nio-8763-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 15:06:31.992 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 15:06:32.489 [http-nio-8763-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 15:06:32.492 [http-nio-8763-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=true)
+2019-07-02 15:06:47.306 [http-nio-8763-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 15:06:47.835 [http-nio-8763-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 15:07:12.742 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 15:08:12.746 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 15:09:12.749 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 15:10:12.753 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 15:11:10.281 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 15:11:12.757 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 15:12:12.759 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 15:13:12.762 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 15:13:33.838 [http-nio-8763-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 15:13:33.906 [http-nio-8763-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 15:13:34.353 [http-nio-8763-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 15:13:34.354 [http-nio-8763-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=true)
+2019-07-02 15:14:12.767 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 15:15:12.768 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 15:16:12.773 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 15:17:12.776 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 15:18:12.782 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 15:19:12.785 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 15:20:12.790 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 15:21:12.793 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 15:22:12.794 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 15:23:12.798 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 15:24:12.801 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 15:25:12.805 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 15:26:10.296 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 15:26:12.810 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 15:27:12.815 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 15:28:12.818 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 15:29:12.821 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 15:30:12.826 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 15:31:12.829 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 15:32:12.832 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 15:33:12.836 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 15:34:12.841 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 15:35:12.846 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 15:36:12.850 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 15:37:12.855 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 15:37:26.844 [http-nio-8763-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 15:37:27.366 [http-nio-8763-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 15:38:12.861 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 15:39:12.867 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 15:39:50.274 [http-nio-8763-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 15:39:50.299 [http-nio-8763-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 15:39:50.788 [http-nio-8763-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 15:39:50.789 [http-nio-8763-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=true)
+2019-07-02 15:40:12.872 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 15:40:48.744 [http-nio-8763-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 15:40:49.265 [http-nio-8763-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 15:41:10.310 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 15:41:12.876 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 15:41:52.018 [http-nio-8763-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 15:41:52.019 [http-nio-8763-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 15:41:52.552 [http-nio-8763-exec-3] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: cancel failed because Lease is not registered for: SSO/172.20.10.2:sso:8877
+2019-07-02 15:41:52.554 [http-nio-8763-exec-3] INFO  c.n.e.resources.InstanceResource -Not Found (Cancel): SSO - 172.20.10.2:sso:8877
+2019-07-02 15:41:52.556 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 15:41:52.558 [TaskBatchingWorker-target_localhost-18] WARN  c.n.eureka.cluster.ReplicationTask -The replication of task SSO/172.20.10.2:sso:8877:Cancel@localhost failed with response code 404
+2019-07-02 15:41:52.559 [TaskBatchingWorker-target_localhost-18] WARN  c.n.eureka.cluster.PeerEurekaNode -SSO/172.20.10.2:sso:8877:Cancel@localhost: missing entry.
+2019-07-02 15:42:12.880 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 15:43:12.882 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 15:44:12.886 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 15:44:12.891 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Evicting 1 items (expired=1, evictionLimit=1)
+2019-07-02 15:44:12.893 [Eureka-EvictionTimer] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: expired lease for SSO/172.20.10.2:sso:8877
+2019-07-02 15:44:12.893 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 15:45:12.891 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 15:46:12.895 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 15:47:12.899 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 15:48:12.903 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 15:49:12.905 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 15:50:12.910 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 15:51:12.921 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 10ms
+2019-07-02 15:52:12.924 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 15:53:12.930 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 15:53:40.190 [http-nio-8763-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/10.253.9.208:sso:8877 with status UP (replication=false)
+2019-07-02 15:53:40.711 [http-nio-8763-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/10.253.9.208:sso:8877 with status UP (replication=true)
+2019-07-02 15:53:48.863 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/10.253.9.208:sso:8877 with status DOWN (replication=false)
+2019-07-02 15:53:48.868 [http-nio-8763-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/10.253.9.208:sso:8877 (replication=false)
+2019-07-02 15:53:49.390 [http-nio-8763-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/10.253.9.208:sso:8877 with status DOWN (replication=true)
+2019-07-02 15:53:49.394 [http-nio-8763-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/10.253.9.208:sso:8877 (replication=true)
+2019-07-02 15:53:55.945 [http-nio-8763-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/10.253.9.208:sso:8877 with status UP (replication=false)
+2019-07-02 15:53:56.173 [http-nio-8763-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/10.253.9.208:sso:8877 with status UP (replication=true)
+2019-07-02 15:54:12.938 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 7ms
+2019-07-02 15:55:12.944 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 15:56:10.324 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 15:56:12.946 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 15:57:12.950 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 15:58:12.954 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 15:59:12.958 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 16:00:12.960 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 16:01:12.965 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 16:02:12.971 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 16:03:12.973 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 16:04:12.978 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 16:05:12.983 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 16:06:12.988 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 16:07:06.494 [http-nio-8763-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/10.253.9.208:sso:8877 with status DOWN (replication=false)
+2019-07-02 16:07:06.494 [http-nio-8763-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/10.253.9.208:sso:8877 (replication=false)
+2019-07-02 16:07:06.999 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/10.253.9.208:sso:8877 with status DOWN (replication=true)
+2019-07-02 16:07:07.001 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/10.253.9.208:sso:8877 (replication=true)
+2019-07-02 16:07:12.993 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 16:07:16.681 [http-nio-8763-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 16:07:17.197 [http-nio-8763-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 16:08:12.997 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 16:09:13.002 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 16:10:13.007 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 16:10:32.356 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 16:10:32.356 [http-nio-8763-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 16:10:32.875 [http-nio-8763-exec-7] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: cancel failed because Lease is not registered for: SSO/172.20.10.2:sso:8877
+2019-07-02 16:10:32.876 [http-nio-8763-exec-7] INFO  c.n.e.resources.InstanceResource -Not Found (Cancel): SSO - 172.20.10.2:sso:8877
+2019-07-02 16:10:32.877 [http-nio-8763-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 16:10:32.881 [TaskBatchingWorker-target_localhost-2] WARN  c.n.eureka.cluster.ReplicationTask -The replication of task SSO/172.20.10.2:sso:8877:Cancel@localhost failed with response code 404
+2019-07-02 16:10:32.882 [TaskBatchingWorker-target_localhost-2] WARN  c.n.eureka.cluster.PeerEurekaNode -SSO/172.20.10.2:sso:8877:Cancel@localhost: missing entry.
+2019-07-02 16:10:40.956 [http-nio-8763-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 16:10:41.478 [http-nio-8763-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 16:11:10.340 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 16:11:13.011 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 16:11:14.383 [http-nio-8763-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 16:11:14.383 [http-nio-8763-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 16:11:14.902 [http-nio-8763-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 16:11:14.904 [http-nio-8763-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=true)
+2019-07-02 16:12:13.012 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 16:12:18.532 [http-nio-8763-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 16:12:19.044 [http-nio-8763-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 16:13:13.015 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 16:14:13.020 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 16:15:13.024 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 16:16:13.028 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 16:17:13.032 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 16:18:13.035 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 16:19:13.039 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 16:20:13.045 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 16:21:13.051 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 16:22:13.054 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 16:23:13.059 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 16:23:43.477 [http-nio-8763-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 16:23:43.496 [http-nio-8763-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 16:23:43.993 [http-nio-8763-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 16:23:43.993 [http-nio-8763-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=true)
+2019-07-02 16:23:52.058 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 16:23:52.574 [http-nio-8763-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 16:24:13.063 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 16:25:13.069 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 16:26:10.351 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 16:26:13.072 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 16:27:13.077 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 16:28:13.082 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 16:28:39.261 [http-nio-8763-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 16:28:39.265 [http-nio-8763-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 16:28:39.783 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 16:28:39.785 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=true)
+2019-07-02 16:28:48.410 [http-nio-8763-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 16:28:48.933 [http-nio-8763-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 16:29:13.088 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 16:30:13.093 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 16:31:13.098 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 16:32:13.099 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 16:33:13.103 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 16:34:13.105 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 16:35:13.110 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 16:36:13.115 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 16:36:16.500 [http-nio-8763-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 16:36:16.517 [http-nio-8763-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 16:36:17.009 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 16:36:17.014 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=true)
+2019-07-02 16:36:26.001 [http-nio-8763-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 16:36:26.518 [http-nio-8763-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 16:37:05.991 [http-nio-8763-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 16:37:05.997 [http-nio-8763-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 16:37:06.527 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 16:37:06.533 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=true)
+2019-07-02 16:37:13.120 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 16:37:15.207 [http-nio-8763-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 16:37:15.730 [http-nio-8763-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 16:37:59.211 [http-nio-8763-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 16:37:59.212 [http-nio-8763-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 16:37:59.734 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 16:37:59.734 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=true)
+2019-07-02 16:38:06.092 [http-nio-8763-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 16:38:06.604 [http-nio-8763-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 16:38:13.123 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 16:38:39.602 [http-nio-8763-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 16:38:39.604 [http-nio-8763-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 16:38:40.121 [http-nio-8763-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 16:38:40.122 [http-nio-8763-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=true)
+2019-07-02 16:38:47.433 [http-nio-8763-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 16:38:47.950 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 16:39:02.317 [http-nio-8763-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 16:39:02.322 [http-nio-8763-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 16:39:02.828 [http-nio-8763-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 16:39:02.829 [http-nio-8763-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=true)
+2019-07-02 16:39:10.540 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 16:39:11.053 [http-nio-8763-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 16:39:13.126 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 16:40:13.131 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 16:41:10.365 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 16:41:13.136 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 16:42:13.136 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 16:42:32.790 [http-nio-8763-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 16:42:32.819 [http-nio-8763-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 16:42:33.326 [http-nio-8763-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 16:42:33.330 [http-nio-8763-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=true)
+2019-07-02 16:42:41.169 [http-nio-8763-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 16:42:41.683 [http-nio-8763-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 16:42:52.527 [http-nio-8763-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 16:42:52.528 [http-nio-8763-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 16:42:53.063 [http-nio-8763-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=true)
+2019-07-02 16:42:53.064 [http-nio-8763-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 16:43:00.423 [http-nio-8763-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 16:43:00.942 [http-nio-8763-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 16:43:13.138 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 16:43:20.991 [http-nio-8763-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 16:43:20.992 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 16:43:21.503 [http-nio-8763-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 16:43:21.504 [http-nio-8763-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=true)
+2019-07-02 16:43:28.871 [http-nio-8763-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 16:43:29.386 [http-nio-8763-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 16:44:13.143 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 16:45:13.148 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 16:45:27.258 [http-nio-8763-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 16:45:27.259 [http-nio-8763-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 16:45:27.714 [http-nio-8763-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 16:45:27.720 [http-nio-8763-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=true)
+2019-07-02 16:45:36.047 [http-nio-8763-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 16:45:36.565 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 16:45:54.893 [http-nio-8763-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 16:45:54.904 [http-nio-8763-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 16:45:55.406 [http-nio-8763-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 16:45:55.408 [http-nio-8763-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=true)
+2019-07-02 16:46:10.084 [http-nio-8763-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 16:46:10.600 [http-nio-8763-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 16:46:13.151 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 16:47:13.155 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 16:48:13.161 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 16:48:54.180 [http-nio-8763-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 16:48:54.181 [http-nio-8763-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 16:48:54.687 [http-nio-8763-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=true)
+2019-07-02 16:48:54.688 [http-nio-8763-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 16:49:03.381 [http-nio-8763-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 16:49:03.896 [http-nio-8763-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 16:49:13.164 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 16:50:13.169 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 16:50:46.320 [http-nio-8763-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 16:50:46.332 [http-nio-8763-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 16:50:46.844 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 16:50:46.845 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=true)
+2019-07-02 16:50:52.957 [http-nio-8763-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 16:50:53.472 [http-nio-8763-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 16:51:13.171 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 16:51:55.319 [http-nio-8763-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 16:51:55.323 [http-nio-8763-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 16:51:55.828 [http-nio-8763-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 16:51:55.828 [http-nio-8763-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=true)
+2019-07-02 16:52:01.584 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 16:52:02.099 [http-nio-8763-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 16:52:13.176 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 16:52:17.598 [http-nio-8763-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 16:52:17.603 [http-nio-8763-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 16:52:18.130 [http-nio-8763-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=true)
+2019-07-02 16:52:18.132 [http-nio-8763-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 16:52:25.439 [http-nio-8763-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 16:52:25.953 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 16:53:13.180 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 16:54:13.184 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 16:55:13.188 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 16:56:10.380 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 16:56:13.192 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 16:57:13.198 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 16:58:13.202 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 16:58:18.193 [http-nio-8763-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 16:58:18.206 [http-nio-8763-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 16:58:18.711 [http-nio-8763-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=true)
+2019-07-02 16:58:18.712 [http-nio-8763-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 16:58:25.892 [http-nio-8763-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=false)
+2019-07-02 16:58:26.415 [http-nio-8763-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status UP (replication=true)
+2019-07-02 16:59:13.207 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 17:00:13.208 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 17:01:13.214 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 17:02:13.215 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 17:03:13.216 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 17:04:13.221 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 17:05:13.226 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 17:06:13.230 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 17:07:13.233 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 17:08:13.236 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 17:09:13.238 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 17:10:13.240 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 17:11:10.393 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 17:11:13.247 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 6ms
+2019-07-02 17:12:13.253 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 17:13:13.259 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 17:28:27.149 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 9ms
+2019-07-02 17:28:27.151 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Evicting 1 items (expired=2, evictionLimit=1)
+2019-07-02 17:28:27.152 [Eureka-EvictionTimer] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: expired lease for USER-SERVER1/192.168.31.149:user-server1:8766
+2019-07-02 17:28:27.156 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance USER-SERVER1/192.168.31.149:user-server1:8766 (replication=false)
+2019-07-02 17:28:42.004 [http-nio-8763-exec-3] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: USER-SERVER1 - 192.168.31.149:user-server1:8766
+2019-07-02 17:28:42.005 [http-nio-8763-exec-3] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): USER-SERVER1 - 192.168.31.149:user-server1:8766
+2019-07-02 17:28:42.047 [http-nio-8763-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance USER-SERVER1/192.168.31.149:user-server1:8766 with status UP (replication=false)
+2019-07-02 17:28:42.564 [http-nio-8763-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance USER-SERVER1/192.168.31.149:user-server1:8766 with status UP (replication=true)
+2019-07-02 17:29:27.151 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 17:30:27.153 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 17:31:27.157 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 17:32:27.161 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 17:33:27.167 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 17:34:27.172 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 17:35:27.175 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 17:36:27.179 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 17:37:27.183 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 17:38:27.189 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 17:39:27.194 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 17:40:24.288 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 17:40:27.199 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 17:41:27.202 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 17:42:27.205 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 17:43:27.211 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 17:44:27.215 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 17:45:27.219 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 17:46:27.220 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 17:47:27.225 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 17:48:27.227 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 17:49:27.232 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 17:50:27.238 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 17:51:27.242 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 17:52:27.247 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 17:53:27.251 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 17:54:27.257 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 17:55:24.304 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 17:55:27.261 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 17:56:27.265 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 17:57:27.266 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 17:58:27.275 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 8ms
+2019-07-02 17:59:27.276 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 18:00:27.280 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 18:01:27.283 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 18:51:39.003 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 693ms
+2019-07-02 18:51:39.169 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Evicting 1 items (expired=2, evictionLimit=1)
+2019-07-02 18:51:39.174 [Eureka-EvictionTimer] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: expired lease for USER-SERVER1/192.168.31.149:user-server1:8766
+2019-07-02 18:51:39.176 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance USER-SERVER1/192.168.31.149:user-server1:8766 (replication=false)
+2019-07-02 19:24:53.934 [http-nio-8763-exec-9] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: USER-SERVER1 - 192.168.31.149:user-server1:8766
+2019-07-02 19:24:53.936 [http-nio-8763-exec-9] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): USER-SERVER1 - 192.168.31.149:user-server1:8766
+2019-07-02 19:24:53.948 [http-nio-8763-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance USER-SERVER1/192.168.31.149:user-server1:8766 with status UP (replication=false)
+2019-07-02 19:24:54.321 [http-nio-8763-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance USER-SERVER1/192.168.31.149:user-server1:8766 with status UP (replication=true)
+2019-07-02 19:40:32.010 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 6ms
+2019-07-02 19:40:32.016 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Evicting 1 items (expired=2, evictionLimit=1)
+2019-07-02 19:40:32.017 [Eureka-EvictionTimer] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: expired lease for USER-SERVER1/192.168.31.149:user-server1:8766
+2019-07-02 19:40:32.019 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance USER-SERVER1/192.168.31.149:user-server1:8766 (replication=false)
+2019-07-02 19:40:47.031 [http-nio-8763-exec-6] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: USER-SERVER1 - 192.168.31.149:user-server1:8766
+2019-07-02 19:40:47.032 [http-nio-8763-exec-6] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): USER-SERVER1 - 192.168.31.149:user-server1:8766
+2019-07-02 19:40:47.044 [http-nio-8763-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance USER-SERVER1/192.168.31.149:user-server1:8766 with status UP (replication=false)
+2019-07-02 19:40:47.382 [http-nio-8763-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance USER-SERVER1/192.168.31.149:user-server1:8766 with status UP (replication=true)
+2019-07-02 19:56:58.575 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 6ms
+2019-07-02 19:57:58.579 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 19:58:58.583 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 19:59:58.586 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 20:00:58.591 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 20:01:58.593 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2019-07-02 20:02:54.898 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 20:02:58.598 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 20:03:30.113 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=false)
+2019-07-02 20:03:30.134 [http-nio-8763-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=false)
+2019-07-02 20:03:30.632 [http-nio-8763-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/172.20.10.2:sso:8877 with status DOWN (replication=true)
+2019-07-02 20:03:30.632 [http-nio-8763-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/172.20.10.2:sso:8877 (replication=true)
+2019-07-02 20:03:58.604 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 20:04:29.697 [http-nio-8763-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/192.168.31.149:sso:8877 with status UP (replication=false)
+2019-07-02 20:04:30.215 [http-nio-8763-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/192.168.31.149:sso:8877 with status UP (replication=true)
+2019-07-02 20:04:58.609 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 20:05:58.612 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 20:06:58.615 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 20:07:58.618 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 20:08:58.621 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 20:09:58.623 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 20:10:58.625 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 20:11:58.630 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 20:12:58.635 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 20:13:37.367 [http-nio-8763-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/192.168.31.149:sso:8877 with status DOWN (replication=false)
+2019-07-02 20:13:37.391 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/192.168.31.149:sso:8877 (replication=false)
+2019-07-02 20:13:37.877 [http-nio-8763-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/192.168.31.149:sso:8877 with status DOWN (replication=true)
+2019-07-02 20:13:37.878 [http-nio-8763-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/192.168.31.149:sso:8877 (replication=true)
+2019-07-02 20:13:43.983 [http-nio-8763-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/192.168.31.149:sso:8877 with status UP (replication=false)
+2019-07-02 20:13:44.491 [http-nio-8763-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/192.168.31.149:sso:8877 with status UP (replication=true)
+2019-07-02 20:13:58.638 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 20:14:58.642 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 20:15:58.644 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 20:16:58.649 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 20:17:54.908 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2019-07-02 20:17:58.650 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2019-07-02 20:18:58.653 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 20:19:58.656 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 20:20:58.660 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 20:21:58.664 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2019-07-02 20:22:52.157 [http-nio-8763-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/192.168.31.149:sso:8877 with status DOWN (replication=false)
+2019-07-02 20:22:52.174 [http-nio-8763-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/192.168.31.149:sso:8877 (replication=false)
+2019-07-02 20:22:52.675 [http-nio-8763-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/192.168.31.149:sso:8877 with status DOWN (replication=true)
+2019-07-02 20:22:52.676 [http-nio-8763-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/192.168.31.149:sso:8877 (replication=true)
+2019-07-02 20:22:58.670 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 5ms
+2019-07-02 20:22:59.837 [http-nio-8763-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/192.168.31.149:sso:8877 with status UP (replication=false)
+2019-07-02 20:23:00.352 [http-nio-8763-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/192.168.31.149:sso:8877 with status UP (replication=true)
+2019-07-02 20:23:58.675 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 20:24:34.070 [http-nio-8763-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/192.168.31.149:sso:8877 with status DOWN (replication=false)
+2019-07-02 20:24:34.077 [http-nio-8763-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/192.168.31.149:sso:8877 (replication=false)
+2019-07-02 20:24:34.595 [http-nio-8763-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/192.168.31.149:sso:8877 with status DOWN (replication=true)
+2019-07-02 20:24:34.595 [http-nio-8763-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance SSO/192.168.31.149:sso:8877 (replication=true)
+2019-07-02 20:24:40.589 [http-nio-8763-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/192.168.31.149:sso:8877 with status UP (replication=false)
+2019-07-02 20:24:41.106 [http-nio-8763-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance SSO/192.168.31.149:sso:8877 with status UP (replication=true)
+2019-07-02 20:24:58.680 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 20:25:58.684 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 3ms
+2019-07-02 20:26:58.689 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 4ms
+2019-07-02 20:27:32.812 [Thread-31] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@22f31dec: startup date [Mon Jul 01 16:10:01 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@40005471
+2019-07-02 20:27:32.849 [Thread-31] INFO  o.s.c.n.e.s.EurekaServiceRegistry -Unregistering application user-eureka with eureka with status DOWN
+2019-07-02 20:27:32.871 [Thread-31] INFO  o.s.c.s.DefaultLifecycleProcessor -Stopping beans in phase 0
+2019-07-02 20:27:32.888 [Thread-31] INFO  c.n.e.DefaultEurekaServerContext -Shutting down ...
+2019-07-02 20:27:32.930 [Thread-31] INFO  c.n.e.DefaultEurekaServerContext -Shut down
+2019-07-02 20:27:32.964 [Thread-31] INFO  o.s.j.e.a.AnnotationMBeanExporter -Unregistering JMX-exposed beans on shutdown
+2019-07-02 20:27:32.967 [Thread-31] INFO  o.s.j.e.a.AnnotationMBeanExporter -Unregistering JMX-exposed beans
+2019-07-02 20:27:33.065 [Thread-31] INFO  c.netflix.discovery.DiscoveryClient -Shutting down DiscoveryClient ...
+2019-07-02 20:27:33.065 [Thread-31] INFO  c.netflix.discovery.DiscoveryClient -Completed shut down of DiscoveryClient
