@@ -7,3 +7,11 @@ spring:
     name: user-server2
 server:
   port: 8767
+
+#hystrix:
+#  command:
+#    default:
+#      execution:
+#        isolation:
+#          thread:
+#            timeoutInMillseconds: 2000

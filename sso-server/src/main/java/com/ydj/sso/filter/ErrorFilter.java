@@ -11,7 +11,7 @@
 //
 //    @Override
 //    public String filterType() {
-//        return "error";
+//        return "error"
 //    }
 //
 //    @Override

@@ -50,4 +50,8 @@ logging:
 #  routes:
 #    sso-server:
 #        path: /user/**
-#        serviceId: sso-server
+#        serviceId: sso-server    指定的项目的application.name
+#   ignored-parrerns:   //禁止路由，禁止外部访问
+#     - /application.name/指定地址
+#     - /serviceId上routes上的名称/指定路由地址（通过zuul的地址）
+#     - /**/指定地址
